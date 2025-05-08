@@ -73,6 +73,10 @@ button{
     color: inherit;
 }
 
+button .selected{
+    color: #ff0000;
+}
+
 .house-details{
     padding: 20px 30px;
 }
