@@ -2,6 +2,21 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+    color: #989BA7;
+}
+
+h2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #141821;
+    margin: 10px 0;
+}
+
+h3{
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0;
 }
 
 .prev-img{
@@ -10,29 +25,114 @@ body{
 }
 
 .modal-content{
+    width: 100%;
     padding: 30px;
+    position: absolute;
+    top: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
 }
 
-.prev-container a,
-.prev-container button{
-    position: absolute;
-    top: 40%;
+.prev-container{
     font-size: 17px;
 }
 
 .prev-container a{
     text-decoration: none;
     color: #fff;
+}
+
+.prev-container .rent-link{
     background-color: #00CD98;
     padding: 5px 10px;
     border-radius: 5px;
 }
 
-.prev-container button{
-    right: 30px;
+.price-value{
+    font-weight: 500;
+    background-color: #f0f7f5;
+    border-radius: 10px;
+}
+
+.price{
+    font-size: 30px;
+    color: #00CD98;
+}
+
+button{
     font: inherit;
     background: none;
     border: none;
-    color: #fff;
     cursor: pointer;
+}
+
+.select-btn{
+    font-size: 24px;
+    color: inherit;
+}
+
+.house-details{
+    padding: 20px 30px;
+}
+
+.top-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top-details  img{
+    width: 70px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.top-details > div{
+    display: flex;
+    align-items: center;
+}
+
+.agent-details{
+    font-size: 12px;
+}
+
+.agent-rating > i{
+    color: #f3b815;
+}
+
+.agent-details p{
+    margin: 0;
+}
+
+.agent-details .agent-name{
+    margin-bottom: 10px;
+    color: #414955;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.mid-details{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    border-bottom: 2px solid #e2e4eb;
+    padding-bottom: 20px;
+    gap: 80px;
+}
+
+.bottom-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.bottom-details > div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #141821;
+    font-size: 1rem;
 }

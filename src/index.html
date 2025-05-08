@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./style.css">
     <title>Real Estate Component</title>
 </head>
@@ -13,9 +14,50 @@
     <div class="prev-container">
         <img class="prev-img" src="./../Assets/images/Rectangle 64.png" alt="preview image of house">
         <div class="modal-content">
-            <a href="">Rent Now</a>
-            <button class="leads-btn">3 Leads ></button>
+            <a href="" class="rent-link">Rent Now</a>
+            <a href="">3 Leads ></a href="">
         </div>
+    </div>
+    <div class="house-details">
+            <div class="top-details">
+                <div>
+                    <img src="./../Assets/images/profile-img.png" alt="Agent profile image">
+                    <div class="agent-details">
+                        <h1 class="agent-name">Eric Smirt</h1>
+                        <div class="agent-rating">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                        </div>
+                        <p>4.9/5 (3878 reviews)</p>
+                    </div>
+                </div>
+                <p class="price-value"><span class="price">$1000</span>/Month</p>
+            </div>
+            <div class="mid-details">
+                <div>
+                    <h2>Cottage in New York</h2>
+                    <h3>2821 Lake Sevilla, Palm Harbor, TX <br>New York, US</h3>
+                </div>
+                <button class="select-btn"><i class="fa fa-heart" aria-hidden="true"></i></button>
+            </div>
+            <div class="bottom-details">
+                <div>
+                    <img src="./../Assets/icons/bed.png" alt="bed icon">
+                    <p>4</p>
+                </div>
+                <div>
+                    <img src="./../Assets/icons/bath.png" alt="bath icon">
+                    <p>2</p>
+                </div>
+                <div>
+                    <img src="./../Assets/icons/box.png" alt="box icon">
+                    <p>6x7.5m<sup>2</sup></p>
+                </div>
+                <p>2 years lease Required</p>
+            </div>
     </div>
     
     <script src="./script.js"></script>
