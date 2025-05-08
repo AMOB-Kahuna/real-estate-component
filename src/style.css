@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.prev-img{
+    width: 100vw;
+    height: 50vh;
+}
+
+.modal-content{
+    padding: 30px;
+}
+
+.prev-container a,
+.prev-container button{
+    position: absolute;
+    top: 40%;
+    font-size: 17px;
+}
+
+.prev-container a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #00CD98;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.prev-container button{
+    right: 30px;
+    font: inherit;
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
